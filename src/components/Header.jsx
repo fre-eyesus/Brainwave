@@ -2,6 +2,7 @@ import { brainwave } from "../assets";
 import { navigation } from "../constants";
 import { useLocation } from "react-router-dom";
 import Button from "./Button";
+
 const Header = () => {
   const pathname = useLocation();
   return (
