@@ -8,6 +8,7 @@ import Benefits from "./components/Benefits";
 import Collaboration from "./components/Collaboration";
 import Services from "./components/Services";
 import Pricing from "./components/Pricing";
+import Roadmap from "./componontes/Roadmap"
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
         <Collaboration />
         <Services />
         <Pricing />
+        <Roadmap />
       </div>
       <ButtonGradient />
     </>
